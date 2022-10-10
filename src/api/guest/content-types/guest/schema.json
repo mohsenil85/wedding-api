@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guests",
+  "info": {
+    "singularName": "guest",
+    "pluralName": "guests",
+    "displayName": "guest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "numPlusOnes": {
+      "type": "integer"
+    },
+    "firstSong": {
+      "type": "string"
+    },
+    "secondSong": {
+      "type": "string"
+    },
+    "thirdSong": {
+      "type": "string"
+    }
+  }
+}
